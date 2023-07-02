@@ -32,7 +32,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'haml', '~> 6.1', '>= 6.1.1'
 gem 'simple_form', '~> 5.2'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
-
+gem 'devise', '~> 4.9', '>= 4.9.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
