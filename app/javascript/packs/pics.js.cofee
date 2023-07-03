@@ -1,0 +1,5 @@
+$ ->
+	$('#pics').imageLoaded ->
+		$('#pics').masonry
+			itemSelector: '.box'
+			idFitWidth: true

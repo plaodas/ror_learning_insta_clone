@@ -118,6 +118,8 @@ GEM
       net-pop
       net-smtp
     marcel (1.0.2)
+    masonry-rails (0.2.4)
+      railties
     matrix (0.4.2)
     method_source (1.0.0)
     mime-types (3.4.1)
@@ -271,6 +273,7 @@ DEPENDENCIES
   haml (~> 6.1, >= 6.1.1)
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  masonry-rails (~> 0.2.4)
   paperclip (~> 6.1)
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
