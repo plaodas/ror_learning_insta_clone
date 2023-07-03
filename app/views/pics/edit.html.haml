@@ -4,6 +4,9 @@
 			.panel-heading
 				%h1 Fix  Pic
 			.panel-body
+				.current_image
+					%striong.center Right Now
+					= image_tag @pic.image.url(:medium)
 				= render 'form'
 				/ = link_to "Cancel", pic_path
 
